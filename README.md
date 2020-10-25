@@ -25,7 +25,8 @@
    
     deactivate
 
-6. cd/foo/foo
+6. Rerunning
+    cd/foo/foo
     source venv/bin/activate
     export DISCORD_APP_TOKEN="<token>"
     python3 reply-bot.py
