@@ -45,7 +45,7 @@ async def process_substring(message):
         print("no response found...")
     return
      
-@bot.command()
+@bot.command(description = "test")
 async def show(ctx):
     result = ""
     if len(replies.items()) == 0: 
